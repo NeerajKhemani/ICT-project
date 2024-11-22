@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,7 +7,6 @@ body {
   color: #333;
 }
 
-/* Navbar */
 nav {
   background-color: #333;
   padding: 10px;
@@ -36,10 +35,9 @@ nav .logo {
   font-weight: bold;
 }
 
-/* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url('images/background.jpg'); /* Replace with your background image name */
+  background-image: url('images/background.jpg'); 
   background-size: cover;
   background-position: center;
   color: white;
@@ -50,7 +48,7 @@ nav .logo {
 }
 
 .hero-text {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+  background: rgba(0, 0, 0, 0.5); 
   padding: 40px;
   border-radius: 8px;
 }
@@ -79,7 +77,6 @@ nav .logo {
   background-color: #218838;
 }
 
-/* Features Section */
 .features {
   display: flex;
   justify-content: space-around;
@@ -120,7 +117,7 @@ nav .logo {
   }
 }
 
-/* Cars Section */
+
 .cars-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -159,7 +156,6 @@ nav .logo {
   background-color: #218838;
 }
 
-/* Login & Signup */
 .login-signup {
   display: flex;
   justify-content: space-between;
@@ -199,7 +195,6 @@ nav .logo {
   background: #e67e22;
 }
 
-/* Contact Page */
 .contact {
   padding: 2rem;
   background: #f4f4f4;
